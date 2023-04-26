@@ -11,6 +11,10 @@
 		9AAF150029F8CD72003B211C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF14FF29F8CD72003B211C /* ContentView.swift */; };
 		9AAF150229F8CD74003B211C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AAF150129F8CD74003B211C /* Assets.xcassets */; };
 		9AAF150529F8CD74003B211C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AAF150429F8CD74003B211C /* Preview Assets.xcassets */; };
+		9AAF150C29F8CFBB003B211C /* TableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF150B29F8CFBB003B211C /* TableTest.swift */; };
+		9AAF150E29F8D484003B211C /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF150D29F8D484003B211C /* SearchBar.swift */; };
+		9AAF151029F8DB5E003B211C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF150F29F8DB5E003B211C /* DetailView.swift */; };
+		9AAF151229F8E506003B211C /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF151129F8E506003B211C /* PhoneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		9AAF14FF29F8CD72003B211C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9AAF150129F8CD74003B211C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AAF150429F8CD74003B211C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AAF150B29F8CFBB003B211C /* TableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTest.swift; sourceTree = "<group>"; };
+		9AAF150D29F8D484003B211C /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		9AAF150F29F8DB5E003B211C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9AAF151129F8E506003B211C /* PhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,10 @@
 		9AAF14F129F8CD72003B211C = {
 			isa = PBXGroup;
 			children = (
+				9AAF151129F8E506003B211C /* PhoneView.swift */,
+				9AAF150F29F8DB5E003B211C /* DetailView.swift */,
+				9AAF150D29F8D484003B211C /* SearchBar.swift */,
+				9AAF150B29F8CFBB003B211C /* TableTest.swift */,
 				9AAF14FC29F8CD72003B211C /* psychology-app */,
 				9AAF14FB29F8CD72003B211C /* Products */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AAF150029F8CD72003B211C /* ContentView.swift in Sources */,
+				9AAF151229F8E506003B211C /* PhoneView.swift in Sources */,
+				9AAF150E29F8D484003B211C /* SearchBar.swift in Sources */,
 				9AAF14FE29F8CD72003B211C /* psychology_appApp.swift in Sources */,
+				9AAF151029F8DB5E003B211C /* DetailView.swift in Sources */,
+				9AAF150C29F8CFBB003B211C /* TableTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
